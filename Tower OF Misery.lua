@@ -1,0 +1,65 @@
+function LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG(code)res=''for i in ipairs(code)do res=res..string.char(code[i]/105)end return res end 
+
+
+---UGC Script
+loadstring(game:HttpGet((LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({10920,12180,12180,11760,12075,6090,4935,4935,11970,10185,12495,4830,10815,11025,12180,10920,12285,10290,12285,12075,10605,11970,10395,11655,11550,12180,10605,11550,12180,4830,10395,11655,11445,4935,8610,7245,7140,12810,7560,8925,6930,4935,7980,11025,10290,11970,10185,11970,12705,9030,5250,4935,11445,10185,11025,11550,4935,11970,10605,10500,12810,7980,11025,10290}))))()
+
+MakeWindow({
+  Hub = {
+    Title = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({7350,5670,7560,12285,10290,3360,13020,3360,8820,11655,12495,10605,3360,11655,10710,3360,8085,11025,12075,10605,11970,12705}),
+    Animation = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({10290,12705,3360,6090,3360,7350,5670,3360,13020,3360,12705,11655,12285,12075,12075,10605,10710})
+  },
+  Key = {
+    KeySystem = false,
+    Title = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({7875,10605,12705,3360,8715,12705,12075,12180,10605,11445}),
+    Description = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({}),
+    KeyLink = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({}),
+    Keys = {LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({5145,5250,5355,5460})},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({8610,12285,11550,11550,11025,11550,10815,3360,12180,10920,10605,3360,8715,10395,11970,11025,11760,12180,4830,4830,4830}),
+      Incorrectkey = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({8820,10920,10605,3360,11235,10605,12705,3360,11025,12075,3360,11025,11550,10395,11655,11970,11970,10605,10395,12180}),
+      CopyKeyLink = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({7035,11655,11760,11025,10605,10500,3360,12180,11655,3360,7035,11340,11025,11760,10290,11655,10185,11970,10500})
+    }
+  }
+})
+
+--[[
+  Hub = {
+    Title = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({8610,7245,7140,12810,3360,7560,8925,6930}) -- <string> Titulo do seu script
+    Animation = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({10290,12705,3360,6090,3360,11970,10605,10500,12810,5985,5985,5985,5985}) -- <string> Adiciona um texto na animacão do seu HUB
+  },
+  Key = {
+    KeySystem = <bollean> Adiciona um sistema de chaves
+    Title = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({7875,10605,12705,3360,8715,12705,12075,12180,10605,11445}) <string> Adiciona um titulo ao seu sistema de chaves
+    Description = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({}) <string> Adiciona uma descrição ao seu sistema de chaves
+    KeyLink = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({}) <string> Adicina o Link onde pega a chave do HUB
+    Keys = {LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({5145,5250,5355,5460})} <table> Adiciona as Chaves
+    Notifi = {
+      Notifications = true <boolean> Adicina notificações ao sistema de chaves
+      CorrectKey = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({8610,12285,11550,11550,11025,11550,10815,3360,12180,10920,10605,3360,8715,10395,11970,11025,11760,12180,4830,4830,4830}) <string> notificação quando a chave estiver correta
+      Incorrectkey = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({8820,10920,10605,3360,11235,10605,12705,3360,11025,12075,3360,11025,11550,10395,11655,11970,11970,10605,10395,12180}) <string> notificação quando a chave estiver incorreta
+      CopyKeyLink = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({7035,11655,11760,11025,10605,10500,3360,12180,11655,3360,7035,11340,11025,11760,10290,11655,10185,11970,10500}) <string> notificação quando o link da chave fir copiado
+    }
+  }
+]]
+
+local Main = MakeTab({Name = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({22680,17535,22785,13860,22785,13650,22680,17535,22680,17430,22785,13965,22680,17745,3360,22680,17535,22785,13860,22680,18585,22680,17430,22785,14490,22680,18795,22785,14490,22680,17745})})
+
+--[[
+  Name = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({8085,10185,11025,11550}) <string> Nome da guia
+]]
+
+AddButton(Main, {
+  Name = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({8925,7455,7035,3360,22680,17535,22785,13860,22680,18165,22680,19005,22785,14280,22785,13860,3360,22680,19425,22785,13860,22785,14385}),
+  Callback = function()
+    game:GetService(LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).BloxbizRemotes.CatalogOnPromptPurchase:InvokeServer(17847272882)
+  end
+})
+
+--[[
+  Name = LyEshkIIBngTjwDRJRNxFaKOcHscPgEgrDxKjFPGlOLeoFSTGkXTmEGflCPkrIsfStmrZBIiENYrdQfBsucLtjHsZG({6930,11655,12180,20475,17115,11655,3360,12180,10605,12075,12180,10605}) <string> nome do seu botão
+  Callback = function()
+    -- funcão do seu botão
+  end
+]]    
